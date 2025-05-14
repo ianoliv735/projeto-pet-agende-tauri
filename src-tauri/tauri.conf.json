@@ -1,0 +1,26 @@
+{
+  "productName": "Pet Agende",
+  "version": "0.1.0",
+  "identifier": "com.ianoliv735.projeto-pet-agende-tauri",
+  "build": {
+    "beforeBuildCommand": "npm run build",
+    "beforeDevCommand": "npm run dev"
+  },
+  "tauri": {
+    "windows": [
+      {
+        "title": "Pet-Agende",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "bundle": {
+      "identifier": "com.ianoliv735.projeto-pet-agende-tauri",
+      "icon": [
+        "icons/icon.icns",
+        "icons/icon.ico",
+        "icons/icon.png"
+      ]
+    }
+  }
+}
